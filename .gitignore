@@ -1,3 +1,6 @@
+# macOS artefacts
+.DS_Store
+
 # R and RStudio artefacts
 .Rhistory
 .Rapp.history
@@ -15,37 +18,27 @@
 *.key
 *.p12
 
-# macOS artefacts
-.DS_Store
+# Temporary, local and staging files
+*.tmp
+*.temp
+tmp/
+temp/
+staging/
+local/
+cache/
+*_cache/
 
-# Local data, generated outputs, staging and temporary files
+# Local data and generated products
 data/
 03_Data/
 outputs/
 results/
 logs/
-staging/
-tmp/
-temp/
-*_cache/
-cache/
-*.tmp
-*.temp
+derived/
+generated/
+*.log
 
-# Raw/source data and common derived data products
-*.gdb/
-*.gdb.zip
-*.gpkg
-*.sqlite
-*.db
-*.rds
-*.RData
-*.csv
-*.tsv
-*.xlsx
-*.xls
-*.pdf
-*.zip
-
-# Project-Sources must remain external to Git
-Project-Sources/
+# Machine-specific artefacts
+.vscode/
+.idea/
+Thumbs.db

@@ -1,0 +1,13 @@
+# Environment-variable interface for external project resources.
+# Absolute machine-specific paths are intentionally not stored here.
+
+paths:
+  data_root:
+    environment_variable: "DPhil_DATA_ROOT"
+    role: "External data root"
+  source_root:
+    environment_variable: "DPhil_SOURCE_ROOT"
+    role: "External Project-Sources root"
+  obsidian_root:
+    environment_variable: "DPhil_OBSIDIAN_ROOT"
+    role: "External ResearchOS root"

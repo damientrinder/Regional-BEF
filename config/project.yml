@@ -1,0 +1,5 @@
+project:
+  name: "Regional-BEF"
+  purpose: "NEOM DPhil Data Processing Workflow"
+  environment_role: "production"
+  scientific_context: "NEOM DPhil Data Processing Workflows"
